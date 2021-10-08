@@ -1,0 +1,77 @@
+.hero-home {
+    background-image: url('/assets/images/home_images/salon.jpg');
+}
+
+.history {
+    padding: 20px 30px;
+    font-size: 18px;
+    line-height: 26px;
+    border-left: 4px solid var(--clr-green);
+    position: relative;
+    width: 80%;
+    margin: 100px auto;
+
+    .history-text {
+        position: relative;
+        z-index: 3;
+    }
+
+
+    svg {
+        fill: var(--clr-green);
+        width: 100px;
+        height: 100px;
+        opacity: .5;
+        position: absolute;
+        top: -25%;
+        left: 12px;
+    }
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 120px;
+
+    .service {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        font-size: 32px;
+        font-weight: 700;
+        position: relative;
+        border-radius: 3px;
+        overflow: hidden;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        &-label {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: var(--clr-white);
+            position: absolute;
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                background-color: var(--clr-white);
+                height: 2px;
+            }
+        }
+
+        &:nth-child(2n) {
+            transform: translateY(35px);
+        }
+    }
+}

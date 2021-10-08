@@ -1,0 +1,33 @@
+.hero-marbrerie {
+  background-image: url("/assets/images/home_images/sol-rosace.jpg");
+}
+
+.grid-marbrerie {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 50px;
+
+  .item {
+    .img {
+      display: flex;
+
+      img {
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    &-label {
+      font-size: 18px;
+      font-weight: 500;
+      font-style: italic;
+      margin-top: 12px;
+    }
+
+    &:nth-child(2) {
+      transform: translateY(200px);
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.hero-menuiserie {
+  background-image: url("/assets/images/home_images/gueridon-damier.jpg");
+}
+
+.grid-menuiserie {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 35px;
+  margin-bottom: 70px;
+
+  .item {
+    .img {
+      display: flex;
+
+      img {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 3px;
+      }
+    }
+
+    &-label {
+      font-size: 18px;
+      font-style: italic;
+      font-weight: 500;
+      margin-top: 10px;
+    }
+
+    &:nth-child(2n) {
+      transform: translateY(150px);
+    }
+  }
+}

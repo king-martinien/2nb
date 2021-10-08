@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-size: 16px;
+  font-family: Roboto;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+input {
+    font-size: 16px;
+    border: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+svg {
+  width: 12px;
+  height: 12px;
+}

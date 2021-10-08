@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="/assets/images/2nb-favicon.png"
+      type="image/x-icon"
+    />
+    <title>2nb - Acceuil</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- ============== Header ================= -->
+    <header>
+      <div class="header-container">
+        <a href="/index.html" class="logo">
+          <img src="/assets/images/2nb-logo.png" alt="Logo 2NB" />
+        </a>
+
+        <nav>
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="/index.html" class="menu-link">Acceuil</a>
+            </li>
+            <li class="menu-item">
+              <a href="menuiserie.html" class="menu-link">
+                <span>Menuiserie</span>
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <path d="M12 21l-12-18h24z" />
+                </svg>
+              </a>
+              <ul class="submenu">
+                <li class="submenu-item"><a href="">Agencement</a></li>
+                <li class="submenu-item"><a href="">Cuisines</a></li>
+                <li class="submenu-item"><a href="">Séjours</a></li>
+                <li class="submenu-item"><a href="">Chambres</a></li>
+                <li class="submenu-item">
+                  <a href="">Mobiliers sur mesure</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="marbrerie.html" class="menu-link">
+                <span>Marbrerie</span>
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <path d="M12 21l-12-18h24z" />
+                </svg>
+              </a>
+              <ul class="submenu">
+                <li class="submenu-item"><a href="">Agencement</a></li>
+                <li class="submenu-item">
+                  <a href="">Monuments funeraires</a>
+                </li>
+                <li class="submenu-item"><a href="">Revêtements</a></li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="professionel.html" class="menu-link">
+                <span>Professionel</span>
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <path d="M12 21l-12-18h24z" />
+                </svg>
+              </a>
+              <ul class="submenu">
+                <li class="submenu-item"><a href="">Monuments Urbains</a></li>
+                <li class="submenu-item"><a href="">Bureaux</a></li>
+                <li class="submenu-item"><a href="">Espaces commerciaux</a></li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="contact.html" class="menu-link">
+                <span>Contact</span>
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <path d="M12 21l-12-18h24z" />
+                </svg>
+              </a>
+              <ul class="submenu">
+                <li class="submenu-item"><a href="contact.html">Contact</a></li>
+                <li class="submenu-item"><a href="">Histoire</a></li>
+                <li class="submenu-item"><a href="atelier.html">Ateliers</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <form action="" class="search-form">
+            <div class="entry">
+              <input
+                type="text"
+                name="search"
+                id="search"
+                placeholder="Rechercher un article"
+              />
+            </div>
+            <button class="submit-search">
+              <svg width="24" height="24" viewBox="0 0 24 24">
+                <path
+                  d="M23.809 21.646l-6.205-6.205c1.167-1.605 1.857-3.579 1.857-5.711 0-5.365-4.365-9.73-9.731-9.73-5.365 0-9.73 4.365-9.73 9.73 0 5.366 4.365 9.73 9.73 9.73 2.034 0 3.923-.627 5.487-1.698l6.238 6.238 2.354-2.354zm-20.955-11.916c0-3.792 3.085-6.877 6.877-6.877s6.877 3.085 6.877 6.877-3.085 6.877-6.877 6.877c-3.793 0-6.877-3.085-6.877-6.877z"
+                />
+              </svg>
+            </button>
+          </form>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ============= hero ================ -->
+    <div class="hero hero-contact">
+      <div class="hero-text">CONTACT</div>
+    </div>
+
+    <div class="container">
+      <div class="form-container">
+        <div class="img-left">
+          <img src="/assets/images/chaise.jpg" alt="" />
+        </div>
+
+        <form action="" class="contact-form">
+          <div class="entry">
+            <label for="name">Nom *</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="entry">
+            <label for="number">Numéro de Téléphone *</label>
+            <input type="text" name="number" id="number" />
+          </div>
+          <div class="entry">
+            <label for="email">Adresse email *</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="entry">
+            <label for="subject">Sujet *</label>
+            <input type="text" name="subject" id="subject" />
+          </div>
+          <div class="entry">
+            <label for="message">Message *</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <button class="submit-btn">Envoyer</button>
+        </form>
+      </div>
+
+      <div class="address">
+        <div class="item">
+          <svg width="24" height="24" viewBox="0 0 24 24">
+            <path
+              d="M18.48 22.926l-1.193.658c-6.979 3.621-19.082-17.494-12.279-21.484l1.145-.637 3.714 6.467-1.139.632c-2.067 1.245 2.76 9.707 4.879 8.545l1.162-.642 3.711 6.461zm-9.808-22.926l-1.68.975 3.714 6.466 1.681-.975-3.715-6.466zm8.613 14.997l-1.68.975 3.714 6.467 1.681-.975-3.715-6.467z"
+            />
+          </svg>
+          <div class="content">
+            <div class="title">Numéro de Téléphone</div>
+            <div class="text">
+              <span>+237 655 944 139</span>
+              <span>+237 671 890 336</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <svg width="24" height="24" viewBox="0 0 24 24">
+            <path
+              d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 14h-7v-8h2v6h5v2z"
+            />
+          </svg>
+          <div class="content">
+            <div class="title">Horaires</div>
+            <div class="text">
+              <p>Atelier</p>
+              <p><span>Lun-Ven : 08H-17H30</span><span>Sam : 08H-15H</span></p>
+            </div>
+            <div class="text">
+              <p>Showroom</p>
+              <p><span>Lun-Ven : 09H-18H</span><span>Sam : 08H-13H30</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <svg width="24" height="24" viewBox="0 0 24 24">
+            <path
+              d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"
+            />
+          </svg>
+          <div class="content">
+            <div class="title">Adresse email</div>
+            <div class="text">
+              <span>2nbfurnituredesign@gmail.com</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <svg width="24" height="24" viewBox="0 0 24 24">
+            <path
+              d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"
+            />
+          </svg>
+          <div class="content">
+            <div class="title">Adresse</div>
+            <div class="text">
+              <p>Atelier</p>
+              <p><span>Derrière la pharmacie de la cité</span></p>
+            </div>
+            <div class="text">
+              <p>Showroom</p>
+              <p><span>Bonaberi,Bonassama</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =============== newsletter ================= -->
+    <div class="newsletter">
+      <div class="conrainer">
+        <h2 class="title">Newsletter</h2>
+        <p class="text">
+          Inscrivez-vous pour recevoir en exclusivité la présentation de nos
+          derniers projets.
+        </p>
+        <form
+          action="
+        "
+          class="newsletter-form"
+        >
+          <div class="entry">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Adresse Email"
+              autocomplete="off"
+            />
+          </div>
+          <button class="submit-btn">S'inscrire</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- ============== Footer ================= -->
+    <footer>
+      <div class="footer-container">
+        <div class="top">
+          <div class="menu-1">
+            <p class="title">Plan du site</p>
+            <ul>
+              <li><a href="/index.html">Acceuil</a></li>
+              <li><a href="menuiserie.html">Menuiserie</a></li>
+              <li><a href="marbrerie.html">Marbrerie</a></li>
+              <li><a href="professionel.html">Professionel</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="menu-1">
+            <p class="title">Contact</p>
+            <ul>
+              <li>
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"
+                  />
+                </svg>
+                <span>2nbfurnituredesign@gmail.com</span>
+              </li>
+              <li>
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"
+                  />
+                </svg>
+                <p>
+                  <span>+237 655 944 139 </span><span>+ 237 671 890 336</span>
+                </p>
+              </li>
+              <li>
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"
+                  />
+                </svg>
+                <p>
+                  <span>Derrière pharmacie cité des palmiers,</span
+                  ><span>Bonaberi, Bonassama</span>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bottom">
+          <p class="copy">
+            ©Copyright 2021 2nb Furnitures & Design tous droits réservés.
+          </p>
+          <a href="" class="social-link">
+            <svg width="24" height="24" viewBox="0 0 24 24">
+              <path
+                d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
